@@ -1,18 +1,13 @@
 package lista06;
-
-import java.sql.Date;
-
 public class Matricula {
     private String codigo;
     private Aluno aluno;
     private Curso curso;
-    private Date data_matricula;
-    public void setCodigo(String string) {
-    }
-    public void setAluno(Aluno aluno2) {
-    }
-    public void setCurso(Curso curso2) {
-    }
-    public void setData_matricula(String string) {
+    private String data_matricula;
+    public Matricula(String codigo, Aluno aluno, Curso curso, String data_matricula){
+        this.codigo = codigo;
+        this.aluno = aluno;
+        this.curso = curso;
+        this.data_matricula = data_matricula;
     }
 }

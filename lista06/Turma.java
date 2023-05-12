@@ -1,16 +1,17 @@
 package lista06;
-
 import java.util.List;
+import java.util.ArrayList;
 
 public class Turma {
     private String nome;
     private List<Matricula> matriculas;
-    public Object getMatriculas() {
-        return null;
+    public Turma(){
+        this.matriculas = new ArrayList<>();
     }
-    public void setNome(String string) {
+    public List<Matricula> getMatriculas(){
+        return this.matriculas;
     }
-    public void setMatriculas(Matricula matricula) {
+    public void addMatricula(Matricula m){
+        this.matriculas.add(m);
     }
-    
 }
