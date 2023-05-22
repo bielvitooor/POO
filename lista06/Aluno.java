@@ -10,5 +10,9 @@ public Aluno(String nome, String endereco, String telefone, String data_nascimen
     this.telefone = telefone;
     this.data_nascimento = data_nascimento;
 }
+@Override
+public String toString() {
+    return this.nome;
+}
     
 }

@@ -12,6 +12,7 @@ public class Turma {
         return this.matriculas;
     }
     public void addMatricula(Matricula m){
+        //posso botar regra nesse carai
         this.matriculas.add(m);
     }
 }
